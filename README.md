@@ -1,5 +1,8 @@
 # SindiAI
 #### Project participating in ASEF 2021 | Developed by: Juled Zaganjori and Elmer Dema
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
+[![HomeBuddy.ml](https://img.shields.io/badge/Web-HomeBuddy.ml-blue)](https://homebuddy.ml)
+[![GitHub language count](https://img.shields.io/github/languages/count/0Shark/SindiAIDev)]()
 
 Sindi is a natural language AI assistant that doesn’t only play music for you but it can also chat with you, tell you jokes and more. 
 It doesn't matter how you ask the question Sindi will always understand what you mean unless the feature is not available.
