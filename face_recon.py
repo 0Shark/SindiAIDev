@@ -1,3 +1,9 @@
+# THIS IS A TESTING FILE AND IS NOT PART OF THE PROJECT
+# The code below can be called from a diffrerent file with import face_recon
+# and webcam_detection(numpy_array_image, user_name)
+# If you want to test this file on your own make sure you install face_recognition lib (tutorial found on Trello board)
+# and also opencv-python and numpy
+
 import face_recognition
 import cv2
 import numpy as np
