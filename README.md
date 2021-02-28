@@ -4,13 +4,13 @@
 Sindi is a natural language AI assistant that doesn’t only play music for you but it can also chat with you, tell you jokes and more. 
 It doesn't matter how you ask the question Sindi will always understand what you mean unless the feature is not available.
 Here is a list of the features Sindi has right now:
-  - Speak feature: *numbers and text*
-  - Chat features: *Hello, Who are you?, Surname, Name, Thanks, full birthday, age (Sindi will know if you lie about your age)*
-  - Weather features: *What's the weather like?*
-  - Music features: *What genres of music do I listen?, Play music, Play rock music, Play custom music*
-  - Music controls: *Play, pause/continue, volume, mute/unmute, replay*
-  - Exit app
-  - Sindi will know if you are angry, neutral or happy based on your input
+  - :speaking_head: Speak feature: *numbers and text* 
+  - :right_anger_bubble: Chat features: *Hello, Who are you?, Surname, Name, Thanks, full birthday, age (Sindi will know if you lie about your age)*
+  - :sun_behind_rain_cloud: Weather features: *What's the weather like?*
+  - :musical_note: Music features: *What genres of music do I listen?, Play music, Play rock music, Play custom music*
+  - :control_knobs: Music controls: *Play, pause/continue, volume, mute/unmute, replay*
+  - :red_circle: Exit app
+  - :speech_balloon: Sindi will know if you are angry, neutral or happy based on your input
 
 ### Technologies used
 ##### On web
@@ -19,9 +19,6 @@ Here is a list of the features Sindi has right now:
 <img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/php.png" width="100">
 <img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/sql.png" width="100">
 </p>
-
-### Our development board, where we organized all of our tasks
-[Trello Board](https://trello.com/b/AIOfJUvG/asef-2021-development-board)
 
 ##### On SindiAI
 
@@ -36,13 +33,16 @@ Here is a list of the features Sindi has right now:
 
 <img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/web.png" width="700">
 
-We created HomeBuddy to be easily accesible by the users and serve as registration domain for all users. The website also includes log in using your face with the face_recognition module but it won't work on the web due to hosting limitations, so you can still try it out by downloading the website here:
-[Google Drive link](https://drive.google.com/file/d/1IzaHphtCNDt0kwedOl_VFuy3xdYd7Fua/view?usp=sharing)
+We created HomeBuddy to be easily accesible by the users and serve as registration domain for all users. The website also includes log in using your face with the face_recognition module, but it won't work on the web due to hosting limitations, so you can still try it out by downloading the website here:
 
-### [Website](https://homebuddy.ml)
+### [HomeBuddy.ml - Files](https://drive.google.com/file/d/1iqoWfvPwmZuY7OZoToXGal__EGG49_MH/view?usp=sharing)
+
+#### [HomeBuddy.ml](https://homebuddy.ml)
 
 - We hosted the website on 000webhost and aquired a free domain from Freenom
 - The website is protected by CloudFlare security and posses a SSL certificate
+
+#### Before installation please make sure you are registered on the [web](https://homebuddy.ml) and you downloaded your data!
 
 ### Installation
 SindiAI is built in [Python 3.6.6](https://www.python.org/downloads/release/python-366/) so make sure you have it installed together with *pip*
@@ -140,15 +140,24 @@ Make sure you add your own music files on the *sindiai/music/* directory.
 | months | 12 |
 | music | 10 genres |
 
-### Todos
+### Our development board, where we organized all of our tasks
+[Trello Board](https://trello.com/b/AIOfJUvG/asef-2021-development-board)
 
- - More chat functions
- - Add Night Mode
- - Speech recognition
+### Todos (Dettailed version on Trello board)
+
+ - More chat functions :scroll:
+ - Add Night Mode :dark_sunglasses:
+ - Speech recognition :speaking_head:
  - Activate on call (Hey Sindi)
- - Play youtube videos
+ - Play videos :film_strip:
+ - Webdriver integration for searching :mag_right:
 
-License
+License :shipit:
 ----
+Copyright 2021 HomeBuddy.ml
 
-MIT
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
