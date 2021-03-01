@@ -1,7 +1,7 @@
-from face_recognition import load_image_file
+# from face_recognition import load_image_file
 import json
 from utils import face_exists, give_response
-from face_recon import webcam_detection
+# from face_recon import webcam_detection
 from wit import Wit
 
 # Wit access token
@@ -39,6 +39,7 @@ if (webcam_detection(known_face, display_name)):
 
     speech_active = False
     '''
+    # COMING SOON
     print("Would you like to activate TTS (Text-To-Speech)? [Yes/No]\n"
           "NOTE: This is still a BETA feature and may slow down response time.")
     choice = input(">>>")
