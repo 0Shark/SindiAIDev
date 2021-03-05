@@ -1,5 +1,7 @@
-# SindiAI
-#### Project participating in ASEF 2021 | Developed by: Juled Zaganjori and Elmer Dema
+# HomeBuddy
+<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/banner.jpg" width="100%">
+
+#### Developed by: Juled Zaganjori and Elmer Dema
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 [![HomeBuddy.ml](https://img.shields.io/badge/Web-HomeBuddy.ml-blue)](https://homebuddy.ml)
 [![GitHub language count](https://img.shields.io/github/languages/count/0Shark/SindiAIDev)]()
@@ -38,16 +40,29 @@ Here is a list of the features Sindi has right now:
 
 We created HomeBuddy to be easily accesible by the users and serve as registration domain for all users. The website also includes log in using your face with the face_recognition module, but it won't work on the web due to hosting limitations, so you can still try it out by downloading the website here:
 
-### [HomeBuddy.ml - Files](https://drive.google.com/file/d/1iqoWfvPwmZuY7OZoToXGal__EGG49_MH/view?usp=sharing)
+### [HomeBuddy.ml - Files](https://drive.google.com/file/d/12X0-BNVl4Q2d9qFQWHEfkTESfvOw56mW/view?usp=sharing)
+
+If you want to check the HomeBuddy.ml code download the files from the [Google Drive link](https://drive.google.com/file/d/12X0-BNVl4Q2d9qFQWHEfkTESfvOw56mW/view?usp=sharing) and extract the files.
+
+1) Firstly you need to have a local server running (for exp. WAMP)
+
+2) After that you need to import the *database.sql* file into your local database managment framework (for exp. PhpMyAdmin)
+#### Unessential procedure
+To use the face_recognition features you need to install the python modules on requirements.txt.
+```sh
+cd YOURDIRECTORY
+pip install -r requirements.txt
+```
+After the modules have been installed you can head over to localhost/homebuddy/ on your webbrowser.
 
 #### [HomeBuddy.ml](https://homebuddy.ml)
 
 - We hosted the website on 000webhost and aquired a free domain from Freenom
 - The website is protected by CloudFlare security and posses a SSL certificate
 
+## Installation
 #### Before installation please make sure you are registered on the [web](https://homebuddy.ml) and you downloaded your data!
-
-### Installation
+#### Sindi uses your custom preferences data to respond to you. 
 SindiAI is built in [Python 3.6.6](https://www.python.org/downloads/release/python-366/) so make sure you have it installed together with *pip*
  
 Next you need to clone the repository or just [download](https://github.com/0Shark/SindiAIDev/archive/main.zip) it.
@@ -138,15 +153,15 @@ Make sure you add your own music files on the *sindiai/music/* directory.
 | Type | Items |
 | ------ | ------ |
 | text | 42 |
-| number | 29 (base numbers that serve to create 1000 more) |
+| number | 29 (audio files used to create other numbers) |
 | jokes | 8 |
 | months | 12 |
-| music | 10 genres |
+| music | 10 genres (where you can store your music)|
 
 ### Our development board, where we organized all of our tasks
 [Trello Board](https://trello.com/b/AIOfJUvG/asef-2021-development-board)
 
-### Todos (Dettailed version on Trello board)
+### Todos (Dettailed version can be found on Trello board)
 
  - More chat functions :scroll:
  - Add Night Mode :dark_sunglasses:
@@ -155,7 +170,7 @@ Make sure you add your own music files on the *sindiai/music/* directory.
  - Play videos :film_strip:
  - Webdriver integration for searching :mag_right:
 
-License :shipit:
+License
 ----
 Copyright 2021 HomeBuddy.ml
 
