@@ -10,7 +10,7 @@ Sindi is a natural language AI assistant that doesn’t only play music for you 
 It doesn't matter how you ask the question Sindi will always understand what you mean unless the feature is not available.
 Here is a list of the features Sindi has right now:
   - :speaking_head: Speak feature: *numbers and text* 
-  - :right_anger_bubble: Chat features: *Hello, Who are you?, Surname, Name, Thanks, full birthday, age (Sindi will know if you lie about your age)*
+  - :right_anger_bubble: Chat features: *Hello, Who are you?, Tell a joke, Surname, Name, Thanks, full birthday, age (Sindi will know if you lie about your age)*
   - :sun_behind_rain_cloud: Weather features: *What's the weather like?*
   - :musical_note: Music features: *What genres of music do I listen?, Play music, Play rock music, Play custom music*
   - :control_knobs: Music controls: *Play, pause/continue, volume, mute/unmute, replay*
