@@ -17,6 +17,9 @@ Here is a list of the features Sindi has right now:
   - :red_circle: Exit app
   - :speech_balloon: Sindi will know if you are angry, neutral or happy based on your input
 
+Current version features:
+[YT Video](https://www.youtube.com/watch?v=gRr3pBE1pZ4)
+
 ### Technologies used
 ##### On web
 <p float="left">
@@ -38,7 +41,7 @@ Here is a list of the features Sindi has right now:
 
 <img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/web.png" width="700">
 
-We created HomeBuddy to be easily accesible by the users and serve as registration domain for all users. The website also includes log in using your face with the face_recognition module, but it won't work on the web due to hosting limitations, so you can still try it out by downloading the website here:
+We created HomeBuddy to be easily accessible by the users and serve as registration domain for all users. The website also includes log in using your face with the face_recognition module, but it won't work on the web due to hosting limitations, so you can still try it out by downloading the website here:
 
 ### [HomeBuddy.ml - Files](https://drive.google.com/file/d/12X0-BNVl4Q2d9qFQWHEfkTESfvOw56mW/view?usp=sharing)
 
@@ -114,7 +117,7 @@ python server.py
 
 ![Error](https://github.com/0Shark/SindiAIDev/blob/main/screenshots/Screenshot_8.png?raw=true)
 
-If you are asked to allow acces to Firewall please do so.
+If you are asked to allow access to Firewall please do so.
 
 ![Error](https://github.com/0Shark/SindiAIDev/blob/main/screenshots/Screenshot_7.png?raw=true)
 
@@ -122,7 +125,10 @@ And head over to 127.0.0.1:8000 on any web browser, or local ip of pc to use on 
 
 ![Error](https://github.com/0Shark/SindiAIDev/blob/main/screenshots/Screenshot_9.png?raw=true)
 
-Make sure you are registred on the [HomeBuddy](https://homebuddyweb.000webhostapp.com) website and you got your FaceHash together with your json data file. And it should be located on */sindiai/users/data/* 
+Make sure you are registred on the [HomeBuddy](https://homebuddyweb.000webhostapp.com) website and you got your FaceHash together with your json data file. 
+Your data should be located on */sindiai/users/data/* 
+
+![Error](https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/Screenshot_50.png?raw=true)
 
 Then you can, 
 
@@ -139,7 +145,7 @@ First we send the input to Wit where it is classified into intents, entities and
 | What are intents? | What are entities? | What are traits? |
 | ------ | ----- | ----- |
 | We have created these intents to classify the response | Entities detect certain objects in the user input (genre, age, date) | Traits help us detect a trait about in sentence (sntiment ex. happy) |
-| ![Error](https://github.com/0Shark/SindiAIDev/blob/main/screenshots/Screenshot_38.png?raw=true) | ![Error](https://github.com/0Shark/SindiAIDev/blob/main/screenshots/Screenshot_39.png?raw=true) | ![Error](https://github.com/0Shark/SindiAIDev/blob/main/screenshots/Screenshot_40.png?raw=true) |
+| <img src="https://github.com/0Shark/SindiAIDev/blob/main/screenshots/Screenshot_38.png" width="100%"> | <img src="https://github.com/0Shark/SindiAIDev/blob/main/screenshots/Screenshot_39.png" width="100%"> | <img src="https://github.com/0Shark/SindiAIDev/blob/main/screenshots/Screenshot_40.png" width="100%"> |
 
 We have manually trained the app with nearly 300 sentences, labelling each type of data. 
 ![Error](https://github.com/0Shark/SindiAIDev/blob/main/screenshots/Screenshot_41.png?raw=true)
