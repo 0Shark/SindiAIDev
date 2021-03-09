@@ -1,102 +1,162 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.2/css/weather-icons.min.css);
-.weather_wrapper{
-	width:100%;
-	height:100px;
-	position:relative;
+.container {
+  margin: 0 auto;
+  width: 660px;
+  background: #444753;
+  border-radius: 5px;
 }
-.weather{
-	width:100px;
-	height:10px;
-	position:absolute;
-	bottom:-700%;
+.chat {
+  width: 100%;
+  float: left;
+  background: #ededed;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #434651;
 }
-.weatherCard{
-	width: 400px;
-	height: 200px;
-	font-family: 'Open Sans';
-	position: relative;
+.chat .chat-header {
+  padding: 20px;
+  border: 3px solid #0ab4b4;
 }
-.currentTemp{
-	width: 220px;
-	height: 200px;
-	background: rgb(41, 41, 41);
-	position: absolute;
-	top: 0;
-	left: 0;
+.chat .chat-header img {
+  float: left;
 }
-.currentWeather{
-	width: 180px;
-	height: 200px;
-	background: rgb(65 65 65);
-	margin: 0;
-	position: absolute;
-	top: 0;
-	right: 0;
+.chat .chat-header .chat-about {
+  float: left;
+  padding-left: 10px;
+  margin-top: 6px;
 }
-.temp{
-	font-size: 80px;
-	text-align: center;
-	display: block;
-	font-weight: 300;
-	color: rgb(255, 255, 255);
-	padding: 20px 0 0;
+.chat .chat-header .chat-with {
+  font-weight: bold;
+  font-size: 16px;
 }
-.location{
-	color: rgb(255, 255, 255);
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 30px;
-	display: block;
+.chat .chat-header .chat-num-messages {
+  color: #92959E;
 }
-.conditions{
-	font-family: weathericons;
-	font-size: 80px;
-	display: block;
-	padding: 20px 0 0;
-	text-align: center;
+.chat .chat-header .fa-star {
+  float: right;
+  color: #D8DADF;
+  font-size: 20px;
 }
-.info{
-	width: 180px;
-	height: 50px;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	background: rgb(8 180 182);
-	font-weight: 700;
-	color: rgb(255, 255, 255);
-	text-align: center;
+.chat .chat-history {
+  padding: 30px 30px 20px;
+  border-bottom: 3px solid #0ab4b4;
+  border: 3px solid #292929;
+  overflow-y: scroll;
+  height: 400px;
 }
-.rain {
-	width: 50%;
-	position: absolute;
-	left: 10px;
-	word-spacing: 60px;
-	top: 3px;
+.chat-history::-webkit-scrollbar {
+  display: none;
 }
-.rain::before{
-	display: block;
-	content: '\f04e';
-	font-family: weathericons;
-	font-size: 40px;
-	left: 6px;
-	top: -4px;
-	position: absolute;
+.chat .chat-history .message-data {
+  margin-bottom: 30px;
 }
-.wind {
-	width: 50%;
-	right: -10px;
-	position: absolute;
-	word-spacing: 60px;
-	top: 3px;
+.chat .chat-history .message {
+  color: white;
+  padding: 10px 20px;
+  line-height: 20px;
+  font-size: 17px;
+  border-radius: 7px;
+  width: 40%;
+  position: static;
 }
-.wind::before{
-	display: block;
-	content: '\f050';
-	font-family: weathericons;
-	font-size: 25px;
-	left: -10px;
-	position: absolute;
-	top: 5px;
+.chat .chat-history .message:after {
+  bottom: 100%;
+  left: 7%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color:#292929;
+  border-width: 10px;
+  margin-left: -10px;
+}
+.chat .chat-history .my-message {
+  background: #292929;
+}
+.chat .chat-history .other-message {
+  background: #09b4b5;
+}
+.chat .chat-history .other-message:after {
+  border-bottom-color: #09b4b5;
+  left: 93%;
+}
+.chat .chat-message {
+  padding: 30px;
+}
+.chat .chat-message .chatbox{
+  width: 80%;
+  border: none;
+  padding: 12px 20px;
+  font: 14px/22px "Lato", Arial, sans-serif;
+  margin-bottom: 10px;
+  resize: none;
+}
+.chat .chat-message .fa-file-o, .chat .chat-message .fa-file-image-o {
+  font-size: 16px;
+  color: gray;
+  cursor: pointer;
+}
+.chat .chat-message button {
+  float: right;
+  color: #292929;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.chat .chat-message button:hover {
+  color: #09b4b5;
+}
+
+.chat .chat-message .button {
+  float: right;
+  color: #292929;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.chat .chat-message .button:hover {
+  color: #09b4b5;
+}
+
+.online, .offline, .me {
+  margin-right: 3px;
+  font-size: 10px;
+}
+
+.online {
+  color: #292929;
+}
+
+.offline {
+  color: #818181;
+}
+
+.me {
+  color: #08b4b6;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
