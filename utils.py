@@ -6,6 +6,12 @@ from random import randint    # Random index
 from pygame import mixer      # Audio output
 from pyowm import OWM         # Weather
 from time import sleep        # Exit timer
+import webbrowser
+
+
+def openWebUI():
+    url='127.0.0.1:8000'
+    webbrowser.get('C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s').open(url)
 
 
 # Initiate mixer - used in audio functions
@@ -35,6 +41,9 @@ except Exception:
 transcript_path = "voice/transcript.json"
 with open(transcript_path) as json_file:
     transcript = json.load(json_file)
+
+
+openWebUI()
 
 
 # Play audio responding to transcript (text)
