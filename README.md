@@ -79,6 +79,9 @@ After that you can change directory to there
 ```sh
 cd /YOURFOLDER/sindiai/
 ```
+
+### Creating an virtual environment (skippable)
+
 We recommend creating a virtual environment to manage your modules more easily, in this case we used anaconda to create the environment like this:
 ```sh
 conda create -n sindiai python==3.6.6
@@ -89,8 +92,7 @@ Now activate the environment:
 ```sh
 conda activate sindiai
 ```
-
-NOTE: You can also install Sindi directly on your main Python installation but it may lead to small errors.
+### Setting up python packages
 
 Now you can install all the required modules with this command:
 ```sh
@@ -103,13 +105,17 @@ After installing all the modules, make sure to have a MySQL local server running
 
 ![Error](https://github.com/0Shark/SindiAIDev/blob/main/screenshots/Screenshot_36.png?raw=true)
 
-Then you can run to create the database:
+### Creating the database
+NOTE: You will need a local hosting server ([WAMP](https://sourceforge.net/projects/wampserver/files/) or [XAMPP](https://www.apachefriends.org/xampp-files/7.3.27/xampp-windows-x64-7.3.27-0-VC15-installer.exe))
+
+Then you can run the script below to create the database:
 ```sh
 python create_db.py
 ```
 
 ![Error](https://github.com/0Shark/SindiAIDev/blob/main/screenshots/Screenshot_6.png?raw=true)
 
+### Starting Flask server
 After the database has been created you can start using SindiAI by running:
 ```sh
 python server.py
