@@ -25,11 +25,12 @@ try:
     sqlStatement = "CREATE TABLE user_bot_chat(id varchar(300), User_input varchar(500), Bot_output varchar(500))"
     # Execute the sqlQuery
     cursorInstance.execute(sqlStatement)
+    print("Successfuly created DB!")
 
 
 except Exception as e:
     print("Exception occurred:{}".format(e))
+    print("You need to have a localhost server running (WAMP or XAMPP)! Please do so and retry installation.")
 
 finally:
-    print("Created DB")
     connectionInstance.close()
