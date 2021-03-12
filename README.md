@@ -79,6 +79,7 @@ After that you can change directory to there
 ```sh
 cd /YOURFOLDER/sindiai/
 ```
+### For automatically executing the installation commands you can run installation.bat
 
 ### Creating an virtual environment (skippable)
 
