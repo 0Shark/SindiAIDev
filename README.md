@@ -3,7 +3,7 @@
 
 #### Developed by: Juled Zaganjori and Elmer Dema
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
-[![HomeBuddy](https://img.shields.io/badge/Web-HomeBuddy.ml-blue)](https://homebuddyweb.000webhostapp.com)
+[![HomeBuddy](https://img.shields.io/badge/Web-HomeBuddy-blue)](https://homebuddyweb.000webhostapp.com)
 [![GitHub language count](https://img.shields.io/github/languages/count/0Shark/SindiAIDev)]()
 
 Sindi is a natural language AI assistant that doesn’t only play music for you but it can also chat with you, tell you jokes and more. 
