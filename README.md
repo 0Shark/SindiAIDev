@@ -3,7 +3,7 @@
 
 #### Developed by: Juled Zaganjori and Elmer Dema
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
-[![HomeBuddy.ml](https://img.shields.io/badge/Web-HomeBuddy.ml-blue)](https://homebuddy.ml)
+[![HomeBuddy](https://img.shields.io/badge/Web-HomeBuddy.ml-blue)](https://homebuddyweb.000webhostapp.com)
 [![GitHub language count](https://img.shields.io/github/languages/count/0Shark/SindiAIDev)]()
 
 Sindi is a natural language AI assistant that doesn’t only play music for you but it can also chat with you, tell you jokes and more. 
@@ -43,9 +43,9 @@ Current version features:
 
 We created HomeBuddy to be easily accessible by the users and serve as registration domain for all users. The website also includes log in using your face with the face_recognition module, but it won't work on the web due to hosting limitations, so you can still try it out by downloading the website here:
 
-### [HomeBuddy.ml - Files](https://drive.google.com/file/d/12X0-BNVl4Q2d9qFQWHEfkTESfvOw56mW/view?usp=sharing)
+### [HomeBuddy - Files](https://drive.google.com/file/d/12X0-BNVl4Q2d9qFQWHEfkTESfvOw56mW/view?usp=sharing)
 
-If you want to check the HomeBuddy.ml code download the files from the [Google Drive link](https://drive.google.com/file/d/12X0-BNVl4Q2d9qFQWHEfkTESfvOw56mW/view?usp=sharing) and extract the files.
+If you want to check the HomeBuddy code download the files from the [Google Drive link](https://drive.google.com/file/d/12X0-BNVl4Q2d9qFQWHEfkTESfvOw56mW/view?usp=sharing) and extract the files.
 
 1) Firstly you need to have a local server running (for exp. WAMP)
 
@@ -58,13 +58,13 @@ pip install -r requirements.txt
 ```
 After the modules have been installed you can head over to localhost/homebuddy/ on your webbrowser.
 
-#### [HomeBuddy.ml](https://homebuddy.ml)
+#### [HomeBuddy](https://homebuddyweb.000webhostapp.com)
 
-- We hosted the website on 000webhost and aquired a free domain from Freenom
+- We hosted the website on 000webhost
 - The website is protected by CloudFlare security and posses a SSL certificate
 
 ## Installation
-#### Before installation please make sure you are registered on the [web](https://homebuddy.ml) and you downloaded your data!
+#### Before installation please make sure you are registered on the [web](https://homebuddyweb.000webhostapp.com) and you downloaded your data!
 #### Sindi uses your custom preferences data to respond to you. 
 SindiAI is built in [Python 3.6.6](https://www.python.org/downloads/release/python-366/) so make sure you have it installed together with *pip*
  
@@ -185,7 +185,7 @@ Make sure you add your own music files on the *sindiai/music/* directory.
 
 License
 ----
-Copyright 2021 HomeBuddy.ml
+Copyright 2021 HomeBuddy
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
