@@ -1,5 +1,5 @@
 # HomeBuddy
-<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/banner.jpg" width="100%">
+<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/banner.jpg?token=GHSAT0AAAAAABWJSDH6WROEWIR5UX5NTG74YXK2GFQ" width="100%">
 
 #### Developed by: Juled Zaganjori and Elmer Dema
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
@@ -23,23 +23,23 @@ Current version features:
 ### Technologies used
 ##### On web
 <p float="left">
-<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/htmlcss.png" width="100">
-<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/php.png" width="100">
-<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/sql.png" width="100">
+<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/htmlcss.png?token=GHSAT0AAAAAABWJSDH6WROEWIR5UX5NTG74YXK2GFQ" width="100">
+<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/php.png?token=GHSAT0AAAAAABWJSDH6WROEWIR5UX5NTG74YXK2GFQ" width="100">
+<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/sql.png?token=GHSAT0AAAAAABWJSDH6WROEWIR5UX5NTG74YXK2GFQ" width="100">
 </p>
 
 ##### On SindiAI
 
 <p float="left">
-<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/python.png" width="100">
-<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/flask.png" width="100">
-<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/wit.png" width="100">
-<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/sql.png" width="100">
+<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/python.png?token=GHSAT0AAAAAABWJSDH6WROEWIR5UX5NTG74YXK2GFQ" width="100">
+<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/flask.png?token=GHSAT0AAAAAABWJSDH6WROEWIR5UX5NTG74YXK2GFQ" width="100">
+<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/wit.png?token=GHSAT0AAAAAABWJSDH6WROEWIR5UX5NTG74YXK2GFQ" width="100">
+<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/sql.png?token=GHSAT0AAAAAABWJSDH6WROEWIR5UX5NTG74YXK2GFQ" width="100">
 </p>
 
 ### Web | HomeBuddy website
 
-<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/web.png" width="700">
+<img src="https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/web.png?token=GHSAT0AAAAAABWJSDH6WROEWIR5UX5NTG74YXK2GFQ" width="700">
 
 We created HomeBuddy to be easily accessible by the users and serve as registration domain for all users. The website also includes log in using your face with the face_recognition module, but it won't work on the web due to hosting limitations, so you can still try it out by downloading the website here:
 
