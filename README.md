@@ -135,7 +135,7 @@ And head over to 127.0.0.1:8000 on any web browser, or local ip of pc to use on 
 Make sure you are registred on the [HomeBuddy](https://homebuddyweb.000webhostapp.com) website and you got your FaceHash together with your json data file. 
 Your data should be located on */sindiai/users/data/* 
 
-![Error](https://raw.githubusercontent.com/0Shark/SindiAIDev/main/screenshots/Screenshot_50.png?raw=true)
+![Error](https://github.com/0Shark/SindiAIDev/blob/main/screenshots/Screenshot_50.png?raw=true)
 
 Then you can, 
 
